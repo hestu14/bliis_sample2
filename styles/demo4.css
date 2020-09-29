@@ -63,12 +63,11 @@
 
 .bb-custom-firstpage {
 	text-align: center;
-	padding-top: 15%;
+	/* padding-top: 15%; */
 	width: 100%;
 	float: left;
 	height: 100%;
 	border: 5px solid salmon;
-	background: url('../img/3574.jpg') repeat;
 }
 
 
