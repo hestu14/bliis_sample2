@@ -93,6 +93,12 @@
 	text-align: center;
 }
 
+@media (max-width: 992px) { 
+	.bb-custom-wrapper > nav {
+		bottom: 5px;
+	}
+}
+
 .bb-custom-wrapper > nav a {
 	display: inline-block;
 	width: 40px;
