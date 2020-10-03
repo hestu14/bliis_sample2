@@ -31,7 +31,7 @@
     border-bottom: 2px solid salmon;
 }
 
-#first-right-page-tujuan, .first-right-page-alamat {
+#first-right-page-tujuan {
     height: 30px;
     width: auto;
     margin-top: -15px;
@@ -111,10 +111,45 @@
     flex-direction: column;
 }
 
+#akad-nikah-header, #resepsi-header {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.resepsi {
+    margin-top: 25px;
+}
+
 .third-right-page {
     display: flex;
     flex-direction: column;
 }
+
+.third-right-page iframe {
+    width: 90%;
+    -webkit-border-radius: 10px;
+    z-index: 0;
+    height: 60vh;
+}
+
+.fourth-page, .fifth-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-page img {
+    height: 90%;
+    width: auto;
+}
+
+.fifth-page iframe {
+    height: 90%;
+    width: 80%;
+}
+
 
 @media (max-width: 992px) { 
 
@@ -148,16 +183,36 @@
 
     .third-left-page {
         width: 100%;
-        height: 40%;
+        height: 43%;
     }
 
     .third-right-page {
         width: 100%;
-        height: 60%;
+        height: 57%;
     }
 
     .third-right-page iframe {
+        width: 90%;
+        height: 250px;
+    }
+
+    .fourth-page img {
+        height: auto;
+        width: 90%;
+    }
+
+    .fifth-page iframe {
+        height: 50%;
+        width: 90%;
+    }
+
+    .fifth-left-page {
+        width: 100%;
         height: 80%;
-        width: auto;
+    }
+
+    .fifth-right-page {
+        width: 100%;
+        height: 20%;
     }
 }
