@@ -306,14 +306,9 @@
     #foto-wanita-right img {
         margin-right: 20px;
     }
-    
-    #akad-nikah-header, #resepsi-header {
-        font-size: 18px;
-        margin-bottom: 2px;
-    }
 
-    #akad-nikah-date, #akad-nikah-time, #akad-nikah-place, #resepsi-date, #resepsi-time, #resepsi-place {
-        font-size: 12px;
+    .resepsi {
+        margin-top: 10px;
     }
 
 }
