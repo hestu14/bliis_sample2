@@ -28,12 +28,18 @@
 }
 
 #first-right-page-text {
-    border-bottom: 2px solid salmon;
+    font-family: 'Caveat', cursive;
+    /* border-bottom: 2px solid salmon; */
 }
 
 #first-right-page-tujuan {
     height: 30px;
     width: auto;
+    font-family: 'Caveat', cursive;
+}
+
+#first-right-page-alamat {
+    font-family: 'Caveat', cursive;
 }
 
 #front-image {
@@ -212,13 +218,13 @@
     .first-left-page {
         /* background-color: green; */
         width: 100%;
-        height: 75%;
+        height: 70%;
     }
     
     .first-right-page {
         /* background-color: red; */
         width: 100%;
-        height: 25%;
+        height: 30%;
     }
 
     #front-image {
@@ -289,4 +295,25 @@
         height: 10%;
         margin-top: -30px;
     }
+}
+
+@media (max-height: 750px) { 
+
+    #foto-pria-left img {
+        margin-left: 20px;
+    }
+
+    #foto-wanita-right img {
+        margin-right: 20px;
+    }
+    
+    #akad-nikah-header, #resepsi-header {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    #akad-nikah-date, #akad-nikah-time, #akad-nikah-place, #resepsi-date, #resepsi-time, #resepsi-place {
+        font-size: 12px;
+    }
+
 }
