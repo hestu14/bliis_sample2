@@ -23,29 +23,6 @@
     justify-content: center;
 }
 
-/* .first-right-page {
-    flex-direction: column;
-}
-
-#first-right-page-text {
-    font-family: 'Caveat', cursive;
-}
-
-#first-right-page-tujuan {
-    height: 30px;
-    width: auto;
-    font-family: 'Caveat', cursive;
-}
-
-#first-right-page-alamat {
-    font-family: 'Caveat', cursive;
-}
-
-#front-image {
-    height: 75%;
-    width: auto;
-} */
-
 .first-left-page {
     display: flex;
     width: 100%;
@@ -320,20 +297,10 @@
 
 @media (max-width: 992px) { 
 
-    /* .first-left-page {
-        width: 100%;
-        height: 70%;
+    .front-image img {
+        height: auto;
+        width: 80vw;
     }
-    
-    .first-right-page {
-        width: 100%;
-        height: 30%;
-    }
-
-    #front-image {
-        height: 80%;
-        width: auto;
-    } */
 
     .tujuan-alamat {
         font-size: 18px;
