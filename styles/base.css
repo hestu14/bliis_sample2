@@ -23,13 +23,12 @@
     justify-content: center;
 }
 
-.first-right-page {
+/* .first-right-page {
     flex-direction: column;
 }
 
 #first-right-page-text {
     font-family: 'Caveat', cursive;
-    /* border-bottom: 2px solid salmon; */
 }
 
 #first-right-page-tujuan {
@@ -45,6 +44,60 @@
 #front-image {
     height: 75%;
     width: auto;
+} */
+
+.first-left-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.tujuan-alamat {
+    font-size: 24px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.front-image img {
+    height: 60vh;
+    width: auto;
+}
+
+.right-bottom img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 10vw;
+}
+
+.right-top img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 10vw;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.left-top img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 10vw;
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.left-bottom img {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 10vw;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .second-left-page {
@@ -125,6 +178,14 @@
     flex-direction: column;
 }
 
+.akad-nikah {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #akad-nikah-header, #resepsi-header {
     font-size: 24px;
     margin-bottom: 5px;
@@ -133,6 +194,34 @@
 
 .resepsi {
     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+}
+
+#akad-nikah-date, #akad-nikah-time, #akad-nikah-place, #resepsi-date, #resepsi-time, #resepsi-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+}
+
+#deskripsi-text {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 88%;
+    text-align: left;
 }
 
 .third-right-page {
@@ -231,32 +320,33 @@
 
 @media (max-width: 992px) { 
 
-    .first-left-page {
-        /* background-color: green; */
+    /* .first-left-page {
         width: 100%;
         height: 70%;
     }
     
     .first-right-page {
-        /* background-color: red; */
         width: 100%;
         height: 30%;
     }
 
     #front-image {
-        /* margin-top: 5%; */
         height: 80%;
         width: auto;
+    } */
+
+    .tujuan-alamat {
+        font-size: 18px;
     }
 
     .second-left-page {
         width: 100%;
         height: 25%;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .second-left-page span {
-        font-size: 14px;;
+        font-size: 18px;;
     }
 
     .second-right-page {
@@ -267,6 +357,10 @@
     .third-left-page {
         width: 100%;
         height: 45%;
+    }
+
+    #akad-nikah-date, #akad-nikah-time, #akad-nikah-place, #resepsi-date, #resepsi-time, #resepsi-place {
+        width: 90%;
     }
 
     .third-right-page {
@@ -280,11 +374,12 @@
     }
 
     .fourth-page-header, .fifth-page-header {
-        height: 30%;
+        height: 20%;
     }
 
     .fourth-page-slideshow, .fifth-page-video {
-        height: 70%;
+        height: 80%;
+        margin-top: -100px;
     }
     
     .carousel-inner {
